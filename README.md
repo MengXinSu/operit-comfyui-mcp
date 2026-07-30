@@ -1,6 +1,6 @@
 # operit-comfyui-mcp
 
-一个 MCP 服务器，让 Operit AI 助手调用电脑上运行的 ComfyUI 生成图像。
+Operit 本地 MCP 插件，让 AI 助手调用电脑上运行的 ComfyUI 生成图像。
 
 ## 工作原理
 
