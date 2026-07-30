@@ -1,47 +1,47 @@
 # operit-comfyui-mcp 🔧🎸
 
-MCP（Model Context Protocol）服务器，让你在 Operit 对话中直接操控 ComfyUI，无需离开聊天窗口就能使用 ComfyUI 生成图像，而且是在手机上优雅地装逼！
+MCP（Model Context Protocol）服务器，在 Operit 中无缝操控你的电脑端 ComfyUI —— 无需切屏，手机上一句话就能让 ComfyUI 生图！
 
 ## 原项目
 
 - GitHub: [ComfyUI](https://github.com/comfyui/comfyui)
-- Operit: 无需多言，懂的都懂！这就是在手机上用 ComfyUI 的最优雅方案！
+- 用途: 通过 MCP 协议，让 Operit AI 助手直接调用你电脑上运行的 ComfyUI
 
 ## 功能
 
 - 🖼️ 加载现有工作流（ComfyUI workflow）
-- 🎨 工作流参数实时调整
-- ⚡ 智能的Dog！不用怕节点报错，自带修复功能
-- 🔐 隐私保障（本地运行…懂的都懂）
-- 🖱️ 随时查看当前工作流状态
-- 🎲 加载完工作流直接生成，不用再导出文件到目录
+- 🎨 实时调整工作流参数
+- ⚡ 智能纠错！不怕缺节点，自动修复
+- 🔐 隐私保障（本地运行，懂的都懂）
+- 🖱️ 随时查看队列状态
+- 🎲 加载工作流直接生成，无需手动导出
 
-在手机上使用就是这么简单，一步到位！
+一句话：**你只管在手机上动嘴，ComfyUI 在电脑上干活。**
 
 ## 安装
 
-在你面前只有一步，自动化部署即可！
-
-### 方法一：使用AI自动安装 🤖
-把一个完整链接扔给你的AI助手，让它帮你下载安装~
+### 方法一：AI 自动安装 🤖
+把仓库链接扔给你的 AI 助手，让它帮你搞定~
 
 ### 方法二：手动安装 ✋
-下载代码放入 Operit 的 mcp_plugins 目录即可。
+```bash
+git clone https://github.com/MengXinSu/operit-comfyui-mcp
+cd operit-comfyui-mcp
+pip install -e .
+```
+然后将 MCP 配置加入 Operit 即可。
 
-### ⚠️ 重要：后台运行
+### ⚠️ 别忘了
 
-ComfyUI 加载模型后请确保 APP 保持后台运行（小窗模式或设置无限制后台，二选一即可），否则被系统清理导致生成失败。
-
-首次运行较慢需编译 Shader，后续会快很多~
+**ComfyUI 在电脑上保持运行**，Operit 在手机上连接使用。首次生图较慢（需编译 Shader），后续飞快~
 
 ## ⚖️ 许可证
 
-使用请遵守原项目协议，<A href="./LICENSE">详见许可证文件</A> 🎮
+CC BY-NC 4.0 — <A href="./LICENSE">详见许可证文件</A>
 
-- 📝 **文章来源:>https://github.com/MengXinSu/operit-comfyui-mcp**
-- 🔕 **加工作流** - 安全不必担心隐私泄漏
-- 🎮 **自作用途** - 你的世界，你可以尽情使用，这也是你的权利
+- 📝 **项目地址**: https://github.com/MengXinSu/operit-comfyui-mcp
+- 🎮 **自用随意**，禁止商用
 
 ---
 
-* Powered by ComfyUI 🎲 Made with love by MengXinSu *
+*Powered by ComfyUI 🎲 Made with love by MengXinSu*
