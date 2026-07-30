@@ -51,7 +51,7 @@ ComfyUI 跑在电脑上，这个插件让手机上的 Operit 通过 MCP 协议�
 ## 使用步骤
 
 1. 电脑上启动 ComfyUI（加 --listen 参数允许远程连接）
-2. 在 Operit 中调 comfy_connect 连接你的 ComfyUI，例如 `192.168.1.100:8188`
+2. 在 Operit 中调 comfy_connect 连接你的 ComfyUI
 3. 调 comfy_list_workflows 看有哪些工作流
 4. 调 comfy_load_workflow 加载一个
 5. 调 comfy_generate 改提示词，开始生图
