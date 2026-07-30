@@ -1,5 +1,7 @@
 # operit-comfyui-mcp
 
+> 本仓库代码由 AI 生成。
+
 Operit 本地 MCP 插件，让 AI 助手调用电脑上运行的 ComfyUI 生成图像。
 
 ## 工作原理
