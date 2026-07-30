@@ -59,6 +59,11 @@ ComfyUI 跑在电脑上，这个插件让手机上的 Operit 通过 MCP 协议�
 
 > 首次生图较慢（ComfyUI 需编译 Shader），之后就快了。
 
+## 游玩建议
+
+可以让 AI 为你写一个配置好的 skill，把常用的工作流、模型、分辨率、步数等参数预设好。
+之后每次生图只需要 `@你的skill 提示词` 就能一键出图，不用每次都问参数。
+
 ## 注意事项
 
 - 工作流路径基于 ComfyUI 的 user/default/workflows 目录
