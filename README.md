@@ -48,18 +48,12 @@ ComfyUI 跑在电脑上，这个插件让手机上的 Operit 通过 MCP 协议�
 - **comfy_queue_status()** — 查看当前执行队列
 - **comfy_interrupt()** — 中断当前正在执行的工作流
 
-## 工作流说明
-
-仓库内置了两个工作流（基础.json / unet基础.json），但可能因你的 ComfyUI 缺少某些第三方节点而无法直接使用。
-如果报错，可以让 AI 用 comfy_fix_workflow 自动修复，或者让 AI 现场给你搭一个能用的。
-
 ## 使用步骤
 
 1. 电脑上启动 ComfyUI（加 --listen 参数允许远程连接）
 2. 在 Operit 中调 comfy_connect 连接你的 ComfyUI
-3. 调 comfy_list_workflows 看有哪些工作流
-4. 调 comfy_load_workflow 加载一个
-5. 调 comfy_generate 改提示词，开始生图
+3. 让 AI 在 ComfyUI 中搭建工作流，或加载已有工作流
+4. 调 comfy_generate 改提示词，开始生图
 
 > 首次生图较慢（ComfyUI 需编译 Shader），之后就快了。
 
