@@ -53,9 +53,9 @@ ComfyUI 跑在电脑上，这个插件让手机上的 Operit 通过 MCP 协议�
 - 图片保存到 ComfyUI 的 output 目录
 - 连不上先检查网络
 
-## 仓库说明
+## 致谢
 
-基于 [xororz/operit-comfyui-mcp](https://github.com/xororz/operit-comfyui-mcp) 修改，清理了示例 IP，功能与原版一致。
+Fork 自 [xororz/operit-comfyui-mcp](https://github.com/xororz/operit-comfyui-mcp)，清理了文档中的示例 IP 地址。
 
 ## 许可证
 
