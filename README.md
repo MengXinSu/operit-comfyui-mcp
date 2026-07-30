@@ -56,7 +56,3 @@ ComfyUI 跑在电脑上，这个插件让手机上的 Operit 通过 MCP 协议�
 ## 许可证
 
 CC BY-NC 4.0 — 详见 LICENSE
-
----
-
-https://github.com/MengXinSu/operit-comfyui-mcp
