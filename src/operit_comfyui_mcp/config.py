@@ -13,7 +13,7 @@ class Config:
     download_dir: str = field(
         default_factory=lambda: os.getenv(
             "COMFYUI_DOWNLOAD_DIR",
-            "/storage/emulated/0/Download/Operit/comfyui_outputs",
+            "./comfyui_outputs",
         )
     )
     max_retries: int = 3
