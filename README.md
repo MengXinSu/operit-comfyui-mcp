@@ -1,5 +1,7 @@
 # operit-comfyui-mcp
 
+![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-blue) ![Python](https://img.shields.io/badge/python-3.11+-blue)
+
 > 本仓库代码由 AI 生成。
 
 Operit 本地 MCP 插件，让 AI 助手调用电脑上运行的 ComfyUI 生成图像。
