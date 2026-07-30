@@ -63,6 +63,7 @@ ComfyUI 跑在电脑上，这个插件让手机上的 Operit 通过 MCP 协议�
 - 工作流路径基于 ComfyUI 的 user/default/workflows 目录
 - 图片保存到 ComfyUI 的 output 目录
 - 连不上先检查网络
+- 理论上也可以生成视频（需使用 AnimateDiff 等视频工作流），但 Operit 暂无视频播放功能，需要 AI 将视频文件放到指定位置供你查看
 
 ## 许可证
 
